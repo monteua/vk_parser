@@ -20,6 +20,7 @@ class Test7(unittest.TestCase):
 
             lastHeight = driver.execute_script("return document.body.scrollHeight")
 
+            #in every discussion searching for links
             list_links = driver.find_elements_by_class_name('bp_text')
             count = 1
             for i in list_links:
