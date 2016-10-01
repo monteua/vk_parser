@@ -4,7 +4,6 @@
 #in the group and file will be created with all links in this discussions
 
 
-
 from selenium import webdriver
 import unittest, time, re, getpass
 
