@@ -15,7 +15,7 @@ print "-".center(10, '=')
 
 class Test6(unittest.TestCase):
     def setUp(self):
-        self.base_url = raw_input("URL: ")
+        self.base_url = input("URL: ")
         self.driver = webdriver.Chrome()
         self.accept_next_alert = True
 
